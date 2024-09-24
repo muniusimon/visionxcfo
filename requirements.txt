@@ -1,8 +1,7 @@
-bcrypt
-beautifulsoup
-flash
-Flask
+flask
+flask_sqlalchemy
+flask_bcrypt
+flask_login
 Pillow
-SQLAlchemy
-WTForms
-
+flask_wtf
+dotenv
