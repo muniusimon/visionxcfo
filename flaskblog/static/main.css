@@ -2,6 +2,7 @@ body {
     background: #fafafa;
     color: #333333;
     margin-top: 5rem;
+    padding: 10px;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -18,6 +19,7 @@ body {
     border: 1px solid #dddddd;
     border-radius: 3px;
     margin-bottom: 20px;
+    
   }
   
   .article-title {
@@ -78,7 +80,7 @@ div.a {
     padding: 20px;
     background-color: #08233a;
     border-radius: 10px;
-    height: 500px;
+    height: auto;
     
   }
 
@@ -187,10 +189,7 @@ footer {
     text-align: center;
     padding: 10px;
     text-decoration: none;
+    margin-top: 50px;
 }
-
-
-
-  
 
 

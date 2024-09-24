@@ -4,8 +4,9 @@
 <header class="jumbotron text-center">
   <h1 class="display-4">Revolutionize Your Financial Management with VisionX CFO</h1>
   <p class="lead">Advanced Tools for Multi-Currency, Cryptocurrency, and Comprehensive Financial Oversight</p>
-  <a href="#" class="btn btn-primary btn-lg">Get Started</a>
-  <a href="#" class="btn btn-secondary btn-lg">Request a Demo</a>
+  <div class="container-fluid"><a href="#" class="btn btn-primary btn-lg">Get Started</a></div>
+  <div><a href="#" class="btn btn-secondary btn-lg">Request a Demo</a></div>
+
 </header>
 
 <!-- Features Section -->
@@ -54,36 +55,5 @@
   </div>
 </section>
 
-  <!-- Cryptocurrency Prices Section -->
-  <section id="crypto-prices" class="container-fluid">
-    <h2>Cryptocurrency Prices</h2>
-    <!-- Cryptocurrency Price Widget -->
-    <script>
-    !function(){
-        var e=document.getElementsByTagName("script"),
-            t=e[e.length-1],
-            n=document.createElement("script");
-        function r(){
-            var e=crCryptocoinPriceWidget.init({
-                base:"USD,EUR,CNY,GBP",
-                items:"BTC,ETH,LTC,XMR,DASH",
-                backgroundColor:"0000FF",  // Set background color to blue
-                streaming:"1",
-                rounded:"1",
-                boxShadow:"1",
-                border:"1"
-            });
-            t.parentNode.insertBefore(e,t)
-        }
-        n.src="https://co-in.io/widget/pricelist.js?items=BTC%2CETH%2CLTC%2CXMR%2CDASH",n.async=!0,
-        n.readyState?n.onreadystatechange=function(){
-            "loaded"!=n.readyState&&"complete"!=n.readyState||(n.onreadystatechange=null,r())
-        }:n.onload=function(){r()},
-        t.parentNode.insertBefore(n,null)
-    }();
-    </script>
-    <a href="https://currencyrate.today/" rel="noopener" target="_blank">CurrencyRate.Today</a>
-    <!-- /Cryptocurrency Price Widget -->
-</section>
  
 {% endblock content %}
