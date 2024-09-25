@@ -2,6 +2,8 @@ body {
     background: #fafafa;
     color: #333333;
     margin-top: 5rem;
+    padding: 0px 5px 0px 5px;
+    max-width: 100%;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -14,7 +16,7 @@ body {
   
   .content-section {
     background: #faf7f7;
-    padding: 10px 20px;
+    padding: 20px 20px 20px 20px;
     border: 1px solid #dddddd;
     border-radius: 3px;
     margin-bottom: 20px;
@@ -187,6 +189,7 @@ footer {
     text-align: center;
     padding: 10px;
     text-decoration: none;
+    margin-top: 30px;
 }
 
 
